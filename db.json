@@ -13,13 +13,6 @@
       "attention": false,
       "tech": "Hayrettin",
       "date": "2020-06-13T01:20:55.954Z"
-    },
-    {
-      "id": 4,
-      "message": "rrrrrrrrrr222222",
-      "attention": false,
-      "tech": "Serafettin",
-      "date": "2020-06-13T01:06:54.049Z"
     }
   ],
   "techs": [
@@ -32,16 +25,6 @@
       "id": 2,
       "firstName": "Sam",
       "lastName": "Smith"
-    },
-    {
-      "id": 3,
-      "firstName": "Sara",
-      "lastName": "Wilson"
-    },
-    {
-      "firstname": "Fatihin",
-      "lastname": "Inan",
-      "id": 4
     }
   ]
 }

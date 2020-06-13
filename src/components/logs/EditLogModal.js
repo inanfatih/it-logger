@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import M from 'materialize-css/dist/js/materialize.min.js';
+import TechSelectOptions from '../techs/TechSelectOptions';
 
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
@@ -61,9 +62,7 @@ const EditLogModal = ({ current, updateLog }) => {
               <option value='' disabled>
                 Select Technician
               </option>
-              <option value='Serafettin'>Serafettin</option>
-              <option value='Hayrettin'>Hayrettin</option>
-              <option value='Kemalettin'>Kemalettin</option>
+              <TechSelectOptions />
             </select>
           </div>
         </div>
@@ -102,7 +101,6 @@ const modalStyle = {
 };
 
 EditLogModal.propTypes = {
-  
   current: PropTypes.object,
   updateLog: PropTypes.func.isRequired,
 };
