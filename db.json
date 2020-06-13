@@ -1,5 +1,27 @@
 {
-  "logs": [],
+  "logs": [
+    {
+      "id": 1,
+      "message": "Fatih 2521",
+      "attention": true,
+      "tech": "Serafettin",
+      "date": "2020-06-13T00:58:35.725Z"
+    },
+    {
+      "id": 3,
+      "message": "Fatih 555",
+      "attention": false,
+      "tech": "Hayrettin",
+      "date": "2020-06-13T01:20:55.954Z"
+    },
+    {
+      "id": 4,
+      "message": "rrrrrrrrrr222222",
+      "attention": false,
+      "tech": "Serafettin",
+      "date": "2020-06-13T01:06:54.049Z"
+    }
+  ],
   "techs": [
     {
       "id": 1,
